@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+const testCommitVariable = 0;
+
 const commentSchema = new Schema({
     rating: {
         type: Number,
